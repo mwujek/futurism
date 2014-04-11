@@ -9,7 +9,7 @@
 .limelight{font-family: 'Limelight', cursive;}
 .holtwood{font-family: 'Holtwood One SC', serif;}
 .uni{font-family: 'UnifrakturCook', cursive;}
-.goblin{font-family: 'Goblin One', cursive;}
+.goblin{font-family: 'coronette', cursive;}
 .arbutus{font-family: 'Arbutus', cursive;}
 .germania{font-family: 'Germania One', cursive;}
 .bevan{font-family: 'Bevan', cursive;}
@@ -21,9 +21,10 @@
 .stint{font-family: 'Stint Ultra Expanded', cursive;}
 .sixcaps{font-family: 'Six Caps', sans-serif;}
 .ultra{font-family: 'Ultra', serif;}
-
-a{color:#777; padding: 0 0 2px 0;}
-a:hover{color:#999; text-decoration: none; border-bottom: 1px #999 solid;}
+.hand{font-family: 'coronette', serif;}
+.chap{font-family: "chaparral-pro", sans-serif;}
+a{color:#777; padding: 0 0 2px 0; text-decoration: underline;}
+a:hover{color:#111x`;}
 
 .center-text{text-align: center;}
 #lead{margin: 3em 0;}

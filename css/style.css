@@ -1,3 +1,10 @@
+p,a,li{
+    
+    font-family: "chaparral-pro", sans-serif;
+    font-size: 16px;
+
+}
+
 #all{display: none;}
 header{
 	background-color: #000;
@@ -6,8 +13,10 @@ header{
 	line-height: 500px;
 	overflow: hidden;
 	position: relative;
+}
 
-
+div .col-sm-3 h3{
+  font-family: "coronette",sans-serif;
 }
 header+h1{
 	text-align: center;
@@ -17,9 +26,21 @@ header+h1{
 	letter-spacing: 1px;
 
 }
+.description p, .description a,.description li{
+  text-indent: 40px;
+  line-height: 1.5em !important;
+  font-size: 18px;
+}
 
+.description p:last-child{
+  margin-bottom: 40px;
+}
 .container header>h1{
   text-align: center;
+}
+
+.index-listing li a, .index-listing li{
+  font-size: 18px !important;
 }
 
 .animation_playground{
@@ -37,8 +58,8 @@ header+h1{
   visibility: hidden;
 }
 
-#logo:hover{
-	opacity: 0.9;
+#logo a:hover{
+	color:#666;
 
 }
 .sidebar{
@@ -52,14 +73,21 @@ header+h1{
 	padding:0;
 	height:100px;
 	line-height: 100px;
-	font-size: 3em;
-	text-align: center;
 	width:100px;
 	position: fixed;
 	z-index: 100;
-	left:-20px;
+	left:5px;
   top:-10px;
+  font-size: 72px !important;
+  text-align: center;
+}
 
+#logo a{
+  text-decoration: none !important;
+  font-size: 72px;
+  font-family: "coronette", sans-serif !important;
+  color:#aaa;
+  transition: 0.3s all;
 }
 
 .sidebar.small{
@@ -119,14 +147,14 @@ header+h1{
 @media (min-width: 768px) { 
 
 #sidewrap div{visibility: visible;}
-#logo{top:0; left:0px;}
+#logo{top:0; left:5px;}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
 #sidewrap div{visibility: visible;}
-#logo{top:0; left:0px;}
+#logo{top:0; left:5px;}
 
  }
 
@@ -134,7 +162,7 @@ header+h1{
 @media (min-width: 1200px) {
 
 #sidewrap{visibility: visible;}
-#logo{top:0; left:0px;}
+#logo{top:0; left:5px;}
 
  }
 
@@ -167,6 +195,7 @@ nav li{
 	display: inline;
 	text-indent: 0;
 	margin: 0 1em;
+  font-family: "coronette",sans-serif;
 }
 
 
@@ -336,7 +365,11 @@ header>span.two_seconds5{ font-size:12em;-webkit-animation-duration: 3.5s;}
 header>span.two_seconds6{ font-size:15em;-webkit-animation-duration: 4s;}
 
 
-
+#logo a{
+  text-decoration: none !important;
+  font-size: 72px;
+  font-size: "coronette", sans-serif !important;
+}
 
 
 
